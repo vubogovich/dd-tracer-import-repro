@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "module": "node16",
+    "moduleResolution": "node16",
+    "lib": ["es2023"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "es2022",
+    "strict": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "outDir": "build"
+  },
+  "include": ["src"]
+}
